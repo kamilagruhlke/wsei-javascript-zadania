@@ -77,3 +77,25 @@ function sortArray(array){
 }
 
 sortArray([145,11,3,64,4,6,10]);
+
+//Zadanie 7
+function addArrays(array1, array2) {
+    var a = [];
+    var b = [];
+
+    if(array1.length > array2.length) {
+        a = array1;
+        b = array2;
+    } else {
+        a = array2;
+        b = array1;
+    }
+
+    for(let i = 0; i < b.length; i++) {
+        a[i] += b[i];
+    }
+
+    return a;
+}
+
+addArrays([4,0,1,3,4], [1,9,6,7,8,17]);

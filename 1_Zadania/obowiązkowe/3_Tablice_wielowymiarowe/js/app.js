@@ -1,3 +1,15 @@
+//Zadanie 0
+function checkArray(tab){
+    for()
+
+    var arr = [
+        [11, 12],
+        [42, 2],
+        [-4, -120],
+        [0, 0],
+        [1, 34],
+        ];
+}
 //Zadanie 1
 var task1Array = [
     [2, 3],
@@ -8,7 +20,7 @@ var task1Array = [
 ];
 
 console.log(task1Array[3][2]);
-console.log(task1Array[2].length);
+console.log(task1Array[1].length);
 console.log(task1Array[4][2]);
 
 //Zadanie 2
@@ -45,3 +57,19 @@ function print2DArray(tab){
     }
 }
 print2DArray(newtab2);
+
+//Zadanie 5
+function create2DArray(rows,columns){
+    var it = 0;
+    var outsideTab = [];
+
+    for(let i = 0; i < rows; i++){
+        insideTab = [];
+        for(let j = 0; j < columns; j++){
+            insideTab.push(++it);
+        }
+        outsideTab.push(insideTab);
+    }
+    return outsideTab;
+}
+create2DArray(4,4);

@@ -72,7 +72,7 @@ fork.isExist  = false;
 
 console.log(spoon.isExist);
 
-//Zadanie 7 - obiekty
+//Zadanie 0 - obiekty
 var car = {
     brand = "Audi",
     color = "black",
@@ -91,7 +91,7 @@ car.printCarinfo();
 car.drive(20);
 car.printCarinfo();
 
-//Zadanie 8
+//Zadanie 1
 car.list = ['2019-01-02'];
 
 car.display(data)= function(){

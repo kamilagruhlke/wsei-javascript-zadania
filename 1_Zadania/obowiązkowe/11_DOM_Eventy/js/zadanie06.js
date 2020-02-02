@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const localX = document.querySelector('#localX');
     const localY = document.querySelector('#localY');
 
-    box.addEventListener('mousemove', function(e) {
+    box.addEventListener('mousemove', function (e) {
         globalX.innerHTML = e.pageX;
         globalY.innerHTML = e.pageY;
         localX.innerHTML = e.pageX - this.offsetLeft;

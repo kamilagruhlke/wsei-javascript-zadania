@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var newBlocks = document.querySelector('.blocks');
     console.log(newBlocks.innerHTML);
     console.log(newBlocks.outerHTML);
-    //dopisać komentarz
+
 
     newBlocks.innerHTML = "Nowa wartosc diva o klasie blocks";
 

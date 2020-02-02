@@ -10,6 +10,6 @@ var movie = {
     category: " Adventure, Drama, Fantasy"
 }
 
-for(info in movie){
+for (info in movie) {
     console.log(movie[info])
 }

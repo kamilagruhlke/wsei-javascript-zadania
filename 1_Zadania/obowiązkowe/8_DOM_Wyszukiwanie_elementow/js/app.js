@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //Zadanie 3
     const articleTag = document.querySelector('article.first');
     const everyH1 = articleTag.querySelectorAll('h1').length;
-    console.log(); // uzupełnic
+    console.log();
 
 });
 

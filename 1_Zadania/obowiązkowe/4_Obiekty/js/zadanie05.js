@@ -32,15 +32,15 @@ var animals = [
 
 ]
 
-for(var animal in animals){
+for (var animal in animals) {
     console.log(animals[animal].type);
     console.log(animals[animal].breed);
     console.log(animals[animal].name);
     console.log(animals[animal].health);
 }
 
-for(let i = 0; i < animals.length; i++){
-    for(const key in animals[i]){
+for (let i = 0; i < animals.length; i++) {
+    for (const key in animals[i]) {
         console.log(animals[i](key[i]));
     }
 }

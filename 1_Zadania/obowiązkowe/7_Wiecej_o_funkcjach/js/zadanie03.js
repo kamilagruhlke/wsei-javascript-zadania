@@ -1,14 +1,18 @@
+//Zarówno przed jak i po mozna wywolac funkcje, poniewaz i tak siegamy do jej deklaracji
 sayHello();
 
-function sayHello(){
+function sayHello() {
     console.log("Cześć");
 }
 
 sayHello();
 
 
-say(); // nie działa
-var say = function(){
+//W takim przypadku funkcje mozemy wywolac dopiero po deklaracji
+//saySmth();
+
+var saySmth = function () {
     console.log("Witaj");
 }
-say();
+
+saySmth();

@@ -1,13 +1,13 @@
 //Zadanie 3
 var stairs = {
     step: 0,
-    up: function(){
+    up: function () {
         this.step++;
     },
-    down: function(){
+    down: function () {
         this.step--;
     },
-    printStep: function(){
+    printStep: function () {
         console.log(this.step);
     }
 }
@@ -15,5 +15,5 @@ var stairs = {
 stairs.up();
 stairs.up();
 stairs.up();
-stairs.down(); 
+stairs.down();
 stairs.printStep();
